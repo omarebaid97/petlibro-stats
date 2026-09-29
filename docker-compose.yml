@@ -1,0 +1,8 @@
+services:
+  petlibro-stats:
+    build: .
+    container_name: petlibro-stats
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "8095:8080"

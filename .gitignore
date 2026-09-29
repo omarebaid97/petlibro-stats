@@ -1,0 +1,39 @@
+
+# --- secrets / local config ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+*token*.json
+.cf_*
+.tunnel_id
+.account_id
+.zone_id
+
+# --- backups, logs, data ---
+*.bak
+*.bak*
+*.bak-*
+*.bak2
+*.log
+build.log
+data/
+*.db
+*.db-journal
+*.sqlite*
+*.csv
+
+# --- misc ---
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.pytest_cache/
+# browser profiles
+chrome-profile/
+chromium-profile/
+browser-profile/
+user-data/
+.config/google-chrome/
